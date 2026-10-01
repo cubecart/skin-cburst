@@ -1,0 +1,14 @@
+body{
+	background-image: url(../images/bg_watercolour_01.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#newsletter_exit .modal-content{
+	background-image: url(../images/bg_watercolour_01_nlm.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

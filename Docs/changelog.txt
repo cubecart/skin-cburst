@@ -1,0 +1,27 @@
+############################################################
+
+CBurst Change Log
+
+############################################################
+------------------------ V1.03 ------------------------------
+- Checkout Address Form Fix
+- Minor Layout Tweek for Mobile/Phone/Email info at checkout
+- Fixed empty Alert box on Product page when in catalogue mode
+
+------------------------ V1.02 ------------------------------
+- Minimum Quantity Fix (Requires CC 6.4.1)
+- What3Words Support Added (Requires CC 6.4.1)
+- Removed Option Description In Favor of Option Name during checkout.
+- SEO EXT Support added for Login, Register, Search Links (Requires CC 6.4.1)
+- Other Product Options types Support
+- Prevent Add To Cart Cache
+- Absolute Price Fix
+- Media Stream Support (Requires CC 6.4.0)
+- Add "Digital Download" ref in Spec Table
+- Update Cookie JS File
+
+------------------------ V1.01 ------------------------------
+- fixed auto submit on estimate shipping modal
+
+------------------------ V1.00 ------------------------------
+Initial Release

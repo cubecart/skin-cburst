@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+	<skin version="1.03">
+		<info>
+			<uid>nitefoxskin007</uid>
+			<type>skin</type>
+			<category>skin</category>
+			<name><![CDATA[cburst]]></name>
+			<original_name><![CDATA[cburst]]></original_name>
+			<display><![CDATA[CBurst]]></display>
+			<description><![CDATA[CBurst — 3 bold, colourful Bootstrap styles that make your store burst to life on any device.]]></description>
+			<version>2.07</version>
+			<minVersion>6.0.0</minVersion>
+			<maxVersion>6.*.*</maxVersion>
+			<creator>CubeCart</creator>
+			<homepage>http://www.cubecart.com</homepage>
+			<layout_type>responsive</layout_type>
+			<framework>bootstrap</framework>
+			<csrf>true</csrf>
+			<newsletter_recaptcha>true</newsletter_recaptcha>
+		</info>
+		<layout>
+			<products>
+				<perpage amount="6" />
+				<perpage default="true" amount="12" />
+				<perpage amount="24" />
+				<perpage amount="48" />
+				<perpage amount="96" />
+			</products>
+		</layout>
+		<styles>
+			<style images="false" default="true">
+			<!-- images: TRUE tells the template system that this style has its own image folder. FALSE would use the contents in the root of the images folder. For example with this as false images/image.jpg vs images/default/image.jpg if set to true -->
+				<directory>default</directory>
+				<name><![CDATA[Default]]></name>
+				<description><![CDATA[Default Style]]></description>
+			</style>
+			<style images="false" default="false">
+				<directory>style02</directory>
+				<name><![CDATA[Watercolour]]></name>
+				<description><![CDATA[Watercolour]]></description>
+			</style>
+			<style images="false" default="false">
+				<directory>style03</directory>
+				<name><![CDATA[Splater]]></name>
+				<description><![CDATA[Splater]]></description>
+			</style>
+		</styles>
+		
+		<images>
+			<image reference="thumbnail" maximum="190" quality="90" default="noimage.png" />
+			<image reference="category" maximum="1000" quality="90" default="" /><!-- Doesnt need a default -->
+			<image reference="subcategory" maximum="105" quality="90" default="noimage.png" />
+			<image reference="gallery" maximum="50" quality="90" default="noimage.png" />
+			<image reference="checkout" maximum="50" quality="90" default="noimage.png" />
+			<image reference="normal" maximum="300" quality="90" default="noimage.png" />
+			<image reference="enlarge" maximum="600" quality="90" default="" /><!-- Doesnt need a default -->
+			<image reference="tiny" maximum="50" quality="90" default="noimage.png" />
+			<image reference="small" maximum="300" quality="90" default="noimage.png" />
+			<image reference="medium" maximum="600" quality="90" default="noimage.png" />
+			<image reference="large" maximum="800" quality="90" default="" /><!-- Doesnt need a default -->
+		</images>
+		<!-- Use this to add custom variables into the skin which can be found in the smarty SKIN_CUSTOM array -->
+		<custom>
+			<recaptcha_badge_position>bottomright</recaptcha_badge_position><!-- Invisible Recaptcha Badge Position: bottomright, bottomleft or inline -->
+		</custom>
+	</skin>
